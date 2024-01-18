@@ -1,0 +1,130 @@
+*{
+    padding: 0;margin:0;box-sizing: border-box;font-family: sans-serif;
+ }
+header{
+        width: 100%;
+        height: 100vh;
+        background-size: 50% 90%;
+        background: url(p3.png);
+        
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+nav{
+        width: 100%;
+        height: 70px;
+        padding: 0px 70px;
+        background: white;;
+        color: black;
+        display:  flex;
+        justify-content: space-between;
+        align-items:center;
+        box-shadow:2px 0px 5px grey;
+    }
+
+.logo{
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    }
+
+.logo span{
+        color: brown;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.menu a{
+
+        text-decoration: none;
+        color: black;
+        padding: 10px 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+.menu a:last-child{
+        background: brown;
+        color: white;
+        border-radius: 8px;
+    }
+     
+
+.h-text{
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        padding: 50px;
+
+    }
+
+.h-text p{
+
+       
+        
+        font-weight: bold;
+        font-size:2em ;
+        color: black;
+        
+    }
+
+.h-text h1{
+        font-size: 3.2em;
+        line-height: 1.5em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: -0.2em;
+    }
+
+.h-text h4{
+        font-size: 3.8em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 0.1em;
+
+        
+    }
+
+.pizImg {
+        position:absolute;
+        top: 80px;
+        right:80px;
+}
+
+#order{
+        text-decoration: none;
+        color: white;
+        background-color: brown;
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 1em;
+        font-size: 1.4em;
+       
+
+    }
+
+   
+
+.h-text h4 span{
+        color: brown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+      
+
+.h-text h3{
+        letter-spacing: 2px;
+    }
+
+.h-text h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 1em;
+    }
+    
+
+.h-text h3{
+        margin-top: 1.4em;
+    }
+footer{
+    margin-top: -50px;
+}
+
